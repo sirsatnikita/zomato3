@@ -1,0 +1,188 @@
+body {
+  background-color: grey;
+}
+
+.header {
+  background-image: url("./res_background.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 480px;
+}
+
+.centered1 {
+  text-align: center;
+  background-image: url("movie3.avif");
+  background-size: 100% 480px;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.divs,.new,.old{
+  background-color: white;
+}
+
+.centered {
+  text-align: center;
+  color: black;
+}
+
+.ownership{
+  text-align: center;
+}
+
+.div{
+  background: rgb(226, 223, 223);
+  height: 400px;
+}
+
+.row {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.divs {
+  border: 1px solid transparent; 
+  margin: 5px;
+  height: 250px;
+  width: 200px;
+  cursor: pointer;
+}
+
+li {
+  display: inline;
+}
+
+.sign_up_btn,
+.log_in_btn,
+.product_btn {
+  float: right;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-family: "Metropolis", sans-serif;
+  margin: 0 20px;
+}
+
+.sign_up_btn:hover,
+.log_in_btn:hover,
+.product_btn:hover {
+  color: white;
+}
+
+.log_in_btn {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.sign_up_btn {
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  background-color: rgb(39, 129, 231);
+  text-align: center;
+}
+
+.add_res_nav_bar {
+  margin: 20px;
+  padding-top: 20px;
+}
+
+.heading_quotes,
+.para {
+  margin-left: 20%;
+  color: white;
+  font-family: "Metropolis", sans-serif;
+}
+
+.buttons {
+  margin: 20px;
+  width: 50%;
+}
+
+.location {
+  text-align: center;
+}
+
+.location input[type="text"] {
+  width: 80%; 
+  margin: 0 auto; 
+  display: block; 
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divs {
+  flex: 0 0 auto;
+  width: calc(33.33% - 20px); 
+}
+
+.log_in {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(39, 129, 231);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 2px;
+}
+
+.log_in:hover {
+  background-color: rgb(85, 150, 224);
+}
+
+.contents {
+  padding: 32px;
+  background-color: white;
+  margin: 10px 20%;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 10px 10px #888888;
+}
+
+.quotes_partner {
+  text-align: center;
+  margin: 20px;
+  font-family: "Metropolis", sans-serif;
+}
+
+.footer {
+  background-color: rgb(194, 194, 194);
+  width: 100%;
+  margin-top: 1000px;
+}
+
+.footer_container {
+  margin: 0 15%;
+  padding: 40px 0 22px;
+}
+
+.footer_logo {
+  height: 28px;
+  width: 132px;
+}
+
+/* .footer_heading {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: black;
+} */
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer a {
+  color: #303030;
+  padding-top: 2px;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  font-family: "Metropolis", sans-serif;
+}
+
